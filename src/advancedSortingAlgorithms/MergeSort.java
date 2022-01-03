@@ -8,7 +8,7 @@ public class MergeSort {
         recursiveMergeSort(array);
         System.out.println(Arrays.toString(array));
     }
-    //The time complexity of selection sort is O(nlogn) and the space complexity is O(nlogn)
+    //The time complexity of merge sort is O(nlogn) and the space complexity is O(nlogn)
     //Falls into the category of divide and conquer
     //Breaks the list into half until each element is the only element in a sublist, then it sorts the elements in the sublists
     //and merges those sublists whilst simultaneously sorting those elements until the original list length has been reconstructed
