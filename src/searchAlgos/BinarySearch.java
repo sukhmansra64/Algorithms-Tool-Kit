@@ -29,6 +29,10 @@ public class BinarySearch {
         }
         return -low-1;
     }
+    //Recursive method for binary search with a time complexity of O(logn) and space complexity of O(logn)
+    //example of decrease and conquer-type algorithm
+    //works by comparing middle element to the value of the key, if it is greater, it gets rid of the lower half, and vice versa
+    //if it is larger, if the middle key becomes the required value, it returns the index, otherwise it returns -1
     public static <T extends Comparable<? super T>> int recursiveBinarySearch(T[]array, int low, int high, T key){
         int found = -1;
         int mid = (low+high)/2;
